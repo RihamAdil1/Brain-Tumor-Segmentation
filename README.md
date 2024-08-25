@@ -1,4 +1,12 @@
-# Brain-Tumor-Segmentation
+# App architecture
+
+## Version 1
+This version will include a simple Streamlit app that takes the image as input from the user. Then displays the Segmented Image.
+
+### Planned architecture diagram
+
+![Architecture-Diagram](data/streamlit-architecture.png)
+
 # Brain Tumor Segmentation
 
 ## Overview
