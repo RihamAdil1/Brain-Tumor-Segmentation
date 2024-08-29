@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  streamlit:
+    image: my-streamlit-app
+    ports:
+      - "8501:8501"  # Ensure this is set correctly
+    volumes:
+      - ./Brain-Tumor-Segmentation:/my-app
+      #- /app/__pycache__ # Ignore cache files
+    command: ["streamlit","run","app.py"]
+# streamlit run --port 8501
+volumes:
+  Brain-Tumor-Segmentation:
